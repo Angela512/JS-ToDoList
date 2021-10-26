@@ -35,6 +35,16 @@ h1{
 
 }
 
+.login-name{
+    width: 200px;
+    
+}
+
+.login-button{
+    width: 100px;
+    border-bottom: 0px;
+}
+
 input{
     border: none;
     background: transparent;
