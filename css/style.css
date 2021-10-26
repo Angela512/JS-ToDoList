@@ -1,0 +1,97 @@
+.hidden{
+    display : none;
+}
+
+body{
+    background-color: #2d3436;
+    color: #ecf0f1;
+    margin: 1%;
+    text-align: center;
+}
+
+#weather{
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 85%;
+}
+.style_city{
+    font-size: 20px;
+    
+}
+.style_CW{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+h2{
+    font-size: 80px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 13%;
+    margin-bottom: 0px;
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+
+}
+
+input{
+    border: none;
+    background: transparent;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 3px;
+    text-align: center;
+    color: #ecf0f1;
+    border-bottom: 2px solid #ecf0f1;
+    width: 300px;
+    word-wrap: break-word;
+}
+
+ul{
+    text-align: center;
+    margin: 3px;
+    
+}
+
+li{
+    list-style: none;
+    font-size: 20px;
+    color: #ecf0f1;
+    word-wrap: break-word;
+
+}
+li::before{
+    content: '🤍';
+}
+button{
+    border: none;
+    background: transparent;
+    font-size: 15px;
+}
+
+#quote{
+    position: fixed;
+    bottom: 30px;
+    width: 100%;
+}
+.style_quote{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 15px;
+
+}
+.style_author{
+    font-size: 15px;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1; 
+}
+
+
