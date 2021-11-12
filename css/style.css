@@ -34,7 +34,6 @@ h1{
     font-size: 40px;
 
 }
-
 .login-name{
     width: 200px;
     
@@ -61,7 +60,6 @@ input{
 ul{
     text-align: center;
     margin: 3px;
-    
 }
 
 li{
@@ -71,14 +69,19 @@ li{
     word-wrap: break-word;
 
 }
+
 li::before{
     content: '🤍';
+    display: inside;
+    padding: 5px;
 }
+
 button{
     border: none;
     background: transparent;
     font-size: 15px;
 }
+
 
 #quote{
     position: fixed;
