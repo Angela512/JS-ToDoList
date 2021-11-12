@@ -11,14 +11,12 @@ function GeoOk(location){
             const ContainsWeather = document.getElementById("ContainsWeather");
             const temp = document.getElementById("temp");
             const temp_max = document.getElementById("temp_max");
-        //    const temp_min = document.querySelector("#weather span:last-child");
             city.innerText = data.name;
             ContainsWeather.innerText = `${data.weather[0].main}`;
             
             temp.innerText = `${Math.round(data.main.temp)}°`;
             temp_max.innerText = `${Math.round(data.main.temp_max)}° / ${Math.round(data.main.temp_min)}°`;
         });
-    //fetch는 바로 발생 X. 시간이 좀 걸림. 서버의 응답 기다려야 함.
 }
 
 function GeoError(){
@@ -26,4 +24,3 @@ function GeoError(){
 }
 
 navigator.geolocation.getCurrentPosition(GeoOk, GeoError);
-//openweathermap.org가서 계정만들고 좌표 얻어오기
