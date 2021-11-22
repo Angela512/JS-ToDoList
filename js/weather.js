@@ -10,12 +10,12 @@ function GeoOk(location){
             const city = document.querySelector("#weather span:first-child");
             const ContainsWeather = document.getElementById("ContainsWeather");
             const temp = document.getElementById("temp");
-            const temp_max = document.getElementById("temp_max");
+            const temp_max_min = document.getElementById("temp-max-min");
             city.innerText = data.name;
             ContainsWeather.innerText = `${data.weather[0].main}`;
             
-            temp.innerText = `${Math.round(data.main.temp)}°`;
-            temp_max.innerText = `${Math.round(data.main.temp_max)}° / ${Math.round(data.main.temp_min)}°`;
+            temp.innerText = `${Math.round(data.main.temp)}° `;
+            temp_max_min.innerText = `(${Math.round(data.main.temp_max)}° / ${Math.round(data.main.temp_min)}°)`;
         });
 }
 
