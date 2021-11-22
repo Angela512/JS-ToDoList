@@ -3,40 +3,32 @@
 }
 
 body{
-    background-color: #2d3436;
+    font-family: 'Times New Roman', Times, serif;
     color: #ecf0f1;
-    margin: 1%;
     text-align: center;
 }
 
-#weather{
-    font-family: 'Times New Roman', Times, serif;
-    padding-left: 85%;
+#weather,
+#greeting,
+#login-form{
+    margin-left: 70%;
+    padding: 10px;
 }
-.style_city{
+
+#city{
     font-size: 20px;
     
 }
-.style_CW{
+#ContainsWeather{
     font-size: 15px;
     font-weight: bold;
 }
 
-h2{
-    font-size: 80px;
-    font-family: 'Times New Roman', Times, serif;
-    margin-top: 13%;
-    margin-bottom: 0px;
-}
-
-h1{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 40px;
-
+#login-form{
+    padding-top: 0px;
 }
 .login-name{
     width: 200px;
-    
 }
 
 .login-button{
@@ -44,11 +36,30 @@ h1{
     border-bottom: 0px;
 }
 
+#greeting{
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+    height: 46px;
+}
+
+#cal{
+    font-size: 25px;
+    margin-top: 5%;
+    margin-bottom: 0;
+}
+
+#clock{
+    font-size: 80px;
+    margin: 5px;
+}
+
 input{
     border: none;
     background: transparent;
     font-size: 22px;
-    font-family: 'Times New Roman', Times, serif;
+    
     margin: 3px;
     text-align: center;
     color: #ecf0f1;
@@ -58,8 +69,8 @@ input{
 }
 
 ul{
-    text-align: center;
-    margin: 3px;
+    margin: 5px;
+    padding: 0px;
 }
 
 li{
@@ -68,6 +79,7 @@ li{
     color: #ecf0f1;
     word-wrap: break-word;
 
+    
 }
 
 li::before{
@@ -84,18 +96,17 @@ button{
 
 
 #quote{
-    position: fixed;
     bottom: 30px;
+    font-size: 15px;
+    position: absolute;
     width: 100%;
+    left: 0px;
 }
-.style_quote{
+.style-quote{
     font-weight: bold;
     font-style: italic;
-    font-size: 15px;
 
-}
-.style_author{
-    font-size: 15px;
+
 }
 
 img{
