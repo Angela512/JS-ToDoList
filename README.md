@@ -1,4 +1,4 @@
-# JS-ToDoList
+# To-Do List
 
 바닐라JS를 사용한 일정관리 크롬 앱입니다.
 
